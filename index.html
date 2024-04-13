@@ -9,20 +9,20 @@
 </head>
 <body>
     <main>
-        <div>
+        <div class="head">
             <h1>Calculadora em HTML, CSS e JavaScript</h1>
-            <input type="number" id="numero1" placeholder="Digite aqui">
-            <input type="number" id="numero2" placeholder="Digite aqui">
+            <input type="number" id="numero1" placeholder="Digite aqui" style="text-align: center; font-size: 20px;">
+            <input type="number" id="numero2" placeholder="Digite aqui" style="text-align: center; font-size: 20px;">
         </div>
-        <div>
-            <button id="btnSoma" onclick="soma()">+</button>
-            <button id="btnSub" onclick="sub()">-</button>
-            <button id="btnMulti" onclick="multi()">*</button>
-            <button id="btnDivi" onclick="divi()">/</button>
+        <div class="botoes">
+            <button id="btnSoma" onclick="soma()"><p>+</p></button>
+            <button id="btnSub" onclick="sub()"><p>-</p></button>
+            <button id="btnMulti" onclick="multi()"><p>*</p></button>
+            <button id="btnDivi" onclick="divi()"><p>/</p></button>
         </div>
-        <div>
+        <div class="resu">
             <h1>Resultado: </h1>
-            <p id="resultado" > </p>
+            <p id="resultado" style="color: red; font-size: 45px;"> </p>
         </div>
     </main>
     <script src="script.js"></script>
