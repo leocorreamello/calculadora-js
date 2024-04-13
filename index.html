@@ -1,13 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pr-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Leonardo Mello">
     <link rel="stylesheet" href="style.css">
     <title>Calculadora JS</title>
 </head>
 <body>
-    
+    <main>
+        <div>
+            <h1>Calculadora em HTML, CSS e JavaScript</h1>
+            <input type="number" id="numero1" placeholder="Digite aqui">
+            <input type="number" id="numero2" placeholder="Digite aqui">
+        </div>
+        <div>
+            <button id="btnSoma" onclick="soma()">+</button>
+            <button id="btnSub" onclick="sub()">-</button>
+            <button id="btnMulti" onclick="multi()">*</button>
+            <button id="btnDivi" onclick="divi()">/</button>
+        </div>
+        <div>
+            <h1>Resultado: </h1>
+            <p id="resultado" > </p>
+        </div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
